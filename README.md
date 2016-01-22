@@ -57,7 +57,7 @@ A curated list of awesome Regex (Regular Expressions) ready to use
     /^https?:\/\/(?:www\.)?vimeo\.com.+?(\d+).*$/i
 
 #### Dailymotion
-    https?:\/\/(?:www\.)?(?:dai\.ly\/|dailymotion\.com\/(?:.+?video=|(?:video|hub)\/))([a-z0-9]+)$/i
+    /^https?:\/\/(?:www\.)?(?:dai\.ly\/|dailymotion\.com\/(?:.+?video=|(?:video|hub)\/))([a-z0-9]+)$/i
 
 #### Facebook photo / video
     /^https?:\/\/(?:www\.)?facebook\.com\/(?:(?:photo|video)\.php(?:\?v=|\?.+?&v=)|[a-z0-9._-]+\/videos\/)(\d+)\/?$/i
