@@ -20,6 +20,8 @@ A curated list of awesome Regex (Regular Expressions) ready to use
         - NERDZCrush
         - Imgur
         - GitHub
+      - [Text manipulation](#text-manipulation)
+        - Remove CDATA tags
 
 ## Information technology
 
@@ -31,7 +33,7 @@ A curated list of awesome Regex (Regular Expressions) ready to use
 
 ### URL
     /^(((http|https|ftp):\/\/)?([[a-zA-Z0-9]\-\.])+(\.)([[a-zA-Z0-9]]){2,4}([[a-zA-Z0-9]\/+=%&_\.~?\-]*))*$/
-  
+
 #### Spotify track
     /^https?:\/\/(?:open|play)\.spotify\.com\/track\/[\w\d]+$/i
 
@@ -65,3 +67,7 @@ A curated list of awesome Regex (Regular Expressions) ready to use
 #### GitHub profile / organization
     /^https?:\/\/(www\.)?github\.com\/[a-z0-9]+$/i
 
+## Text manipulation
+
+### Remove CDATA tags
+    /<!\[CDATA\[(.*)\]\]>/
