@@ -9,19 +9,19 @@ A curated list of awesome Regex (Regular Expressions) ready to use
       - [IP Address](#ip-address)
       - [Mail](#mail)
       - [URL](#url)
-        - Spotify track
-        - Spotify url
-        - Soundcloud
-        - Deezer track/album/playlist
-        - Youtube
-        - Vimeo
-        - Dailymotion
-        - Facebook
-        - NERDZCrush
-        - Imgur
-        - GitHub
+        - [Spotify track](#spotify-track)
+        - [Spotify url](#spotify-url)
+        - [Soundcloud](#soundcloud)
+        - [Deezer track/album/playlist](#deezer-trackalbumplaylist)
+        - [Youtube](#youtube)
+        - [Vimeo](#vimeo)
+        - [Dailymotion](#dailymotion)
+        - [Facebook](#facebook)
+        - [NERDZCrush](#nerdzcrush)
+        - [Imgur](#imgur)
+        - [GitHub](#github)
       - [Text manipulation](#text-manipulation)
-        - Remove CDATA tags
+        - [Remove CDATA tags](#remove-cdata-tags)
 
 ## Information technology
 
