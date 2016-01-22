@@ -6,6 +6,7 @@ A curated list of awesome Regex (Regular Expressions) ready to use
 
 - [Awesome Regex](#awesome-regex)
     - [Information technology](#information-technology)
+      - [Hex color](#hex-color)
       - [IP Address](#ip-address)
       - [Mail](#mail)
       - [URL](#url)
@@ -23,6 +24,9 @@ A curated list of awesome Regex (Regular Expressions) ready to use
 
 ## Information technology
 
+### Hex color
+    /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/
+
 ### IP Address
     /^((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))*$/
 
@@ -31,7 +35,7 @@ A curated list of awesome Regex (Regular Expressions) ready to use
 
 ### URL
     /^(((http|https|ftp):\/\/)?([[a-zA-Z0-9]\-\.])+(\.)([[a-zA-Z0-9]]){2,4}([[a-zA-Z0-9]\/+=%&_\.~?\-]*))*$/
-  
+
 #### Spotify track
     /^https?:\/\/(?:open|play)\.spotify\.com\/track\/[\w\d]+$/i
 
