@@ -33,35 +33,35 @@ A curated list of awesome Regex (Regular Expressions) ready to use
     /^(((http|https|ftp):\/\/)?([[a-zA-Z0-9]\-\.])+(\.)([[a-zA-Z0-9]]){2,4}([[a-zA-Z0-9]\/+=%&_\.~?\-]*))*$/
   
 #### Spotify track
-    #^https?://(?:open|play)\.spotify\.com/track/[\w\d]+$#i
+    /^https?:\/\/(?:open|play)\.spotify\.com\/track\/[\w\d]+$/i
 
 #### Spotify playlist
-    #^https?://(?:open|play)\.spotify\.com/user/([\w\d]+)/playlist/[\w\d]+#i
+    /^https?:\/\/(?:open|play)\.spotify\.com\/user\/([\w\d]+)\/playlist\/[\w\d]+$/i
 
 #### Soundcloud
-    #^https?://soundcloud\.com/\S+/\S+$#i
+    /^https?:\/\/soundcloud\.com\/\S+\/\S+$/i
 
 #### Deezer track/album/playlist
-    #^https?://(?:www\.)?deezer\.com/(track|album|playlist)/(\d+)$#
+    /^https?:\/\/(?:www\.)?deezer\.com\/(track|album|playlist)\/(\d+)$/
 
 #### Youtube
-    #^https?://(?:(?:www|m)\.)?(?:youtube\.com/watch(?:\?v=|\?.+?&v=)|youtu\.be/)([a-z0-9_-]+)#i
+    /^https?:\/\/(?:(?:www|m)\.)?(?:youtube\.com\/watch(?:\?v=|\?.+?&v=)|youtu\.be\/)([a-z0-9_-]+)$/i
 
 #### Vimeo
-    '#^https?://(?:www\.)?vimeo\.com.+?(\d+).*$#i
+    /^https?:\/\/(?:www\.)?vimeo\.com.+?(\d+).*$/i
 
 #### Dailymotion
-    #^https?://(?:www\.)?(?:dai\.ly/|dailymotion\.com/(?:.+?video=|(?:video|hub)/))([a-z0-9]+)#i
+    https?:\/\/(?:www\.)?(?:dai\.ly\/|dailymotion\.com\/(?:.+?video=|(?:video|hub)\/))([a-z0-9]+)$/i
 
 #### Facebook photo / video
-    #^https?://(?:www\.)?facebook\.com/(?:(?:photo|video)\.php(?:\?v=|\?.+?&v=)|[a-z0-9._-]+/videos/)(\d+)/?#i
+    /^https?:\/\/(?:www\.)?facebook\.com\/(?:(?:photo|video)\.php(?:\?v=|\?.+?&v=)|[a-z0-9._-]+\/videos\/)(\d+)\/?$/i
 
 #### NERDZCrush
-    #^https?://(?:cdn\.)?media\.nerdz\.eu/([a-z0-9_-]{12})(?:|\.[a-z0-9]{2,4})#i
+    /^https?:\/\/(?:cdn\.)?media\.nerdz\.eu\/([a-z0-9_-]{12})(?:|\.[a-z0-9]{2,4})$/i
 
 #### Imgur
-    #^https?://(?:www\.)?(?:i\.)?imgur\.com/([a-z0-9_-]+)\.(?:gifv|webm)$#i
+    /^https?:\/\/(?:www\.)?(?:i\.)?imgur\.com\/([a-z0-9_-]+)\.(?:gifv|webm)$/i
 
 #### GitHub profile / organization
-    #^https?://(www\.)?github\.com/[a-z0-9]+$#i
+    /^https?:\/\/(www\.)?github\.com\/[a-z0-9]+$/i
 
