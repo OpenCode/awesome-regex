@@ -5,6 +5,9 @@ A curated list of awesome Regex (Regular Expressions) ready to use
 ## Table of Content
 
 - [Awesome Regex](#awesome-regex)
+    - [Know more about Regular Expressions](#know-more-about-regular-expressions)
+      - [Interesting resources](#interesting-resources)
+      - [Online tools to test regular expressions](#online-tools-to-test-regular-expressions)
     - [Information technology](#information-technology)
       - [Hex color](#hex-color)
       - [IP Address](#ip-address)
@@ -21,8 +24,31 @@ A curated list of awesome Regex (Regular Expressions) ready to use
         - [NERDZCrush](#nerdzcrush)
         - [Imgur](#imgur)
         - [GitHub](#github-profile--organization)
+        - [Twitter status](#twitter-status)
       - [Text manipulation](#text-manipulation)
         - [Remove CDATA tags](#remove-cdata-tags)
+
+## Know more about Regular Expressions
+
+### Interesting resources ###
+
+* [Wikipedia page](https://en.wikipedia.org/wiki/Regular_expression)
+* [Mastering Regular Expressions (Jeffrey E. F. Friedl, O'Reilly)](http://www.amazon.com/gp/product/0596528124)
+* [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html)
+* [Regexes: the bad, the better, the best](https://www.loggly.com/blog/regexes-the-bad-better-best/)
+  An in-depth performance analysis that explains why you should prefer explicit regular expressions.
+* [Parsing XML, HTML or other non-regular languages/formats](http://stackoverflow.com/a/1732454/5764947)
+  The ["theoretical explanation"](https://en.wikipedia.org/wiki/Chomsky_hierarchy) is: XML, HTML and other languages can be expressed only by non-regulars grammars. Regular languages can represent only regular languages.
+  Don't even try.
+* [@RegexTip on Twitter](https://twitter.com/RegexTip)
+
+### Online tools to test regular expressions ###
+
+* [Rubular](http://rubular.com/)
+* [Pythex](http://pythex.org/)
+* [Regex Pal](http://www.regexpal.com/)
+* [RegExr](http://www.regexr.com/)
+
 
 ## Information technology
 
@@ -70,6 +96,9 @@ A curated list of awesome Regex (Regular Expressions) ready to use
 
 #### GitHub profile / organization
     /^https?:\/\/(www\.)?github\.com\/[a-z0-9]+$/i
+
+#### Twitter status
+    /^https?://twitter.com/[a-z0-9_]+/status/[0-9]+$/i
 
 ## Text manipulation
 
