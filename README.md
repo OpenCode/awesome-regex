@@ -21,6 +21,7 @@ A curated list of awesome Regex (Regular Expressions) ready to use
         - [NERDZCrush](#nerdzcrush)
         - [Imgur](#imgur)
         - [GitHub](#github-profile--organization)
+        - [Twitter status](#twitter-status)
       - [Text manipulation](#text-manipulation)
         - [Remove CDATA tags](#remove-cdata-tags)
 
@@ -70,6 +71,9 @@ A curated list of awesome Regex (Regular Expressions) ready to use
 
 #### GitHub profile / organization
     /^https?:\/\/(www\.)?github\.com\/[a-z0-9]+$/i
+
+#### Twitter status
+    /^https?://twitter.com/[a-z0-9_]+/status/[0-9]+$/i
 
 ## Text manipulation
 
