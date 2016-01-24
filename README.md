@@ -73,7 +73,7 @@ A curated list of awesome Regex (Regular Expressions) ready to use
     /^https?:\/\/(www\.)?github\.com\/[a-z0-9]+$/i
 
 #### Twitter status
-    /^https?://twitter.com/[a-z0-9_]+/status/[0-9]+$/i
+    /^https?:\/\/twitter.com\/[a-z0-9_]+\/status\/[0-9]+$/i
 
 ## Text manipulation
 
