@@ -8,6 +8,7 @@ A curated list of awesome Regex (Regular Expressions) ready to use
     - [Information technology](#information-technology)
       - [Hex color](#hex-color)
       - [IP Address](#ip-address)
+      - [MAC Address](#mac-address)
       - [Mail](#mail)
       - [URL](#url)
         - [Spotify track](#spotify-track)
@@ -32,6 +33,9 @@ A curated list of awesome Regex (Regular Expressions) ready to use
 
 ### IP Address
     /^((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))*$/
+    
+### MAC Address
+    /^(?:[0-9a-f]{2}[\-:]?){6}(?<![\-:])$/i
 
 ### Mail
     /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/
