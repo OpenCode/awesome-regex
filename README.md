@@ -83,6 +83,13 @@ foo@bar  | ✗
 #### Youtube
     /^https?:\/\/(?:(?:www|m)\.)?(?:youtube\.com\/watch(?:\?v=|\?.+?&v=)|youtu\.be\/)([a-z0-9_-]+)$/i
 
+String | Match
+--- | ---
+http://www.youtube.com/watch?v=dbB-mICjkQM  | ✓
+https://www.youtube.com/watch?v=dbB-mICjkQM  | ✓
+https://m.youtube.com/watch?v=dbB-mICjkQM  | ✓
+https://youtu.be/dbB-mICjkQM  | ✓
+
 #### Vimeo
     /^https?:\/\/(?:www\.)?vimeo\.com.+?(\d+).*$/i
 
