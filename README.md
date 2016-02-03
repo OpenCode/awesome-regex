@@ -85,6 +85,10 @@ foo@bar  | ✗
 #### Soundcloud
     /^https?:\/\/soundcloud\.com\/\S+\/\S+$/i
 
+String | Match
+--- | ---
+https://soundcloud.com/geierre/only-tonight  | ✓
+
 #### Deezer track/album/playlist
     /^https?:\/\/(?:www\.)?deezer\.com\/(track|album|playlist)\/(\d+)$/
 
@@ -109,6 +113,10 @@ http://vimeo.com/58165438  | ✓
 #### Dailymotion
     /^https?:\/\/(?:www\.)?(?:dai\.ly\/|dailymotion\.com\/(?:.+?video=|(?:video|hub)\/))([a-z0-9]+)$/i
 
+String | Match
+--- | ---
+http://www.dailymotion.com/video/x3pu5i0  | ✓
+
 #### Facebook photo / video
     /^https?:\/\/(?:www\.)?facebook\.com\/(?:(?:photo|video)\.php(?:\?v=|\?.+?&v=)|[a-z0-9._-]+\/videos\/)(\d+)\/?$/i
 
@@ -118,11 +126,23 @@ http://vimeo.com/58165438  | ✓
 #### Imgur
     /^https?:\/\/(?:www\.)?(?:i\.)?imgur\.com\/([a-z0-9_-]+)\.(?:gifv|webm)$/i
 
+String | Match
+--- | ---
+http://i.imgur.com/w59wsnu.gifv  | ✓
+
 #### GitHub profile / organization
     /^https?:\/\/(www\.)?github\.com\/[a-z0-9]+$/i
 
+String | Match
+--- | ---
+https://github.com/OpenCode  | ✓
+
 #### Twitter status
     /^https?:\/\/twitter.com\/[a-z0-9_]+\/status\/[0-9]+$/i
+
+String | Match
+--- | ---
+https://twitter.com/_opencode/status/690479102978035712  | ✓
 
 ## Text manipulation
 
