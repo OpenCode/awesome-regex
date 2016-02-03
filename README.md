@@ -36,6 +36,17 @@ A curated list of awesome Regex (Regular Expressions) ready to use
     
 ### MAC Address
     /^(?:[0-9a-f]{2}[\-:]?){6}(?<![\-:])$/i
+    
+String | Match
+--- | ---
+AA:BB:CC:DD:EE:FF  | ✓
+AA-BB-CC-DD-EE-FF  | ✓
+AA:BB-CC:DD-EE:FF  | ✓
+AABBCCDDEEFF       | ✓
+AA.BB.CC.DD.EE.FF  | ✗
+AA-BB-CC-DD-EE-GG  | ✗
+AA:BB:CC:DD:EE:FF: | ✗
+AA:BB:CC:DD:EE:FF- | ✗
 
 ### Mail
     /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/
