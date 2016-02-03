@@ -101,6 +101,11 @@ https://youtu.be/dbB-mICjkQM  | ✓
 #### Vimeo
     /^https?:\/\/(?:www\.)?vimeo\.com.+?(\d+).*$/i
 
+String | Match
+--- | ---
+https://vimeo.com/58165438  | ✓
+http://vimeo.com/58165438  | ✓
+
 #### Dailymotion
     /^https?:\/\/(?:www\.)?(?:dai\.ly\/|dailymotion\.com\/(?:.+?video=|(?:video|hub)\/))([a-z0-9]+)$/i
 
